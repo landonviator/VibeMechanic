@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: Two or more files with the name of ButtonProps.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\Source\GUI\Buttons\ButtonProps.cpp, ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: Two or more files with the name of Menus.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\Source\GUI\Components\SettingsPage\Menus.cpp, ..\..\Source\GUI\Menus\Menus.cpp.
+  SettingsPage.cpp
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(230,1): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(231,1): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\ButtonProps.cpp(21,115): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(46,124): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(68,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,91): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,72): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(77,127): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(77,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(84,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(85,130): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(85,47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(88,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(89,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(90,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(91,153): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(91,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(91,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+x64\Release\Shared Code\\ButtonProps.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Release\Shared Code\\Menus.obj : warning LNK4042: object specified more than once; extras ignored
+  VibeMechanic_SharedCode.vcxproj -> C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Builds\VisualStudio2019\x64\Release\Shared Code\VibeMechanic.lib

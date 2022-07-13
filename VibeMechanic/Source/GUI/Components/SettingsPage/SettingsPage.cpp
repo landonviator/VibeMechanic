@@ -10,21 +10,47 @@
 
 #include <JuceHeader.h>
 #include "SettingsPage.h"
+#include "ButtonProps.cpp"
 
 //==============================================================================
 SettingsPage::SettingsPage(VibeMechanicAudioProcessor& p) : audioProcessor(p)
 {
-    setMenuProps(m_themeMenu);
+    addAndMakeVisible(m_themeMenu);
+    m_themeMenu.setColour(juce::ComboBox::ColourIds::backgroundColourId, juce::Colour::fromRGB(53, 55, 70));
+    m_themeMenu.setColour(juce::ComboBox::ColourIds::outlineColourId, juce::Colours::whitesmoke.withAlpha(0.0f));
+    m_themeMenu.setColour(juce::ComboBox::ColourIds::focusedOutlineColourId, juce::Colours::black.withAlpha(0.5f));
+    m_themeMenu.setColour(juce::ComboBox::ColourIds::textColourId, juce::Colours::whitesmoke.withAlpha(0.5f));
+    m_themeMenu.setColour(juce::ComboBox::ColourIds::arrowColourId, juce::Colours::whitesmoke.withAlpha(0.5f));
+
+    m_themeMenu.getLookAndFeel().setColour(juce::PopupMenu::backgroundColourId, juce::Colour::fromRGB(53, 55, 70));
+    m_themeMenu.getLookAndFeel().setColour(juce::PopupMenu::highlightedBackgroundColourId, juce::Colours::skyblue.withAlpha(0.1f));
+    m_themeMenu.getLookAndFeel().setColour(juce::PopupMenu::textColourId, juce::Colours::whitesmoke.withAlpha(0.5f));
+    m_themeMenu.getLookAndFeel().setColour(juce::PopupMenu::highlightedTextColourId, juce::Colours::whitesmoke.withAlpha(0.5f));
+
+    m_themeMenu.setJustificationType(juce::Justification::centred);
+
     setThemeMenuProps();
     setGlowSliderProps();
     
     m_themeGroup.setText("Plugin Color Themes");
     
     /** Buttons */
-    for (auto& button : buttons)
+    for (int i = 0; i < buttons.size(); ++i)
     {
-        setTextButtonProps(*button);
+        addAndMakeVisible(buttons[i]);
+        buttons[i]->setClickingTogglesState(true);
+        buttons[i]->setColour(juce::ComboBox::outlineColourId, juce::Colours::transparentBlack);
+        buttons[i]->setColour(juce::TextButton::ColourIds::textColourOnId, juce::Colours::whitesmoke);
+        buttons[i]->setColour(juce::TextButton::ColourIds::textColourOffId, juce::Colours::whitesmoke.withAlpha(0.5f));
+        buttons[i]->setColour(juce::TextButton::ColourIds::buttonColourId, juce::Colour::fromRGB(53, 55, 70));
+        buttons[i]->setColour(juce::TextButton::ColourIds::buttonOnColourId, juce::Colour::fromRGB(53, 55, 70).brighter(0.1));
     }
+
+    setGlowButtonProps();
+    setGradientToggleProps();
+    setDiscordBtnProps();
+    setPatreonBtnProps();
+    setTwitchBtnProps();
     
     /** Groups */
     for (auto& group : groups)
