@@ -20,8 +20,8 @@ void  VibeMechinicAudioProcessorEditor::setTextButtonProps(juce::TextButton &but
         button.setColour(juce::ComboBox::outlineColourId, m_textAccentColor);
         button.setColour(juce::TextButton::ColourIds::textColourOnId, m_textAccentColor);
         button.setColour(juce::TextButton::ColourIds::textColourOffId, m_textAccentColor);
-        button.setColour(juce::TextButton::ColourIds::buttonColourId, m_mainCompFillColor);
-        button.setColour(juce::TextButton::ColourIds::buttonOnColourId, m_mainCompFillColor);
+        button.setColour(juce::TextButton::ColourIds::buttonColourId, m_mainCompColor);
+        button.setColour(juce::TextButton::ColourIds::buttonOnColourId, m_mainCompColor);
         button.setLookAndFeel(&customButtonLAF);
     }
     
@@ -40,8 +40,6 @@ void  VibeMechinicAudioProcessorEditor::setTextButtonProps(juce::TextButton &but
 
 void  VibeMechinicAudioProcessorEditor::setSettingsButtonProps()
 {
-    //m_settingsButton.setButtonText("Settings");
-    //m_settingsButton.changeWidthToFitText();
     m_settingsButton.setComponentID("settings");
     m_settingsButton.onClick = [this]()
     {

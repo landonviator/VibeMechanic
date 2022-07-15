@@ -5,6 +5,7 @@
 #include "./GUI/LookAndFeel/FullDial.h"
 #include "./GUI/LookAndFeel/Buttons.h"
 #include "./GUI/Components/SettingsPage/SettingsPage.h"
+#include "./GUI/LookAndFeel/MenuLAF.h"
 
 //==============================================================================
 
@@ -100,8 +101,10 @@ private:
     /** ============================== Module Widgets ============================== */
     juce::Slider m_driveDial;
     juce::Slider m_mixDial;
+    juce::Slider m_distortionVolumeDial;
     juce::Slider m_toneDial;
     juce::Slider m_cutoffDial;
+    juce::Slider m_toneOutDial;
     juce::Slider m_tiltSlider;
     viator_gui::Label m_driveLabel;
     viator_gui::Label m_driveMixLabel;
@@ -125,12 +128,12 @@ private:
     
     std::vector<juce::Slider*> disSliders =
     {
-        &m_driveDial, &m_mixDial
+        &m_driveDial, &m_mixDial, &m_distortionVolumeDial
     };
     
     std::vector<juce::Slider*> toneSliders =
     {
-        &m_toneDial, &m_cutoffDial, &m_tiltSlider
+        &m_toneDial, &m_cutoffDial, &m_tiltSlider, &m_toneOutDial
     };
     
     void setToneSliderProps();
@@ -151,7 +154,9 @@ private:
     
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> driveAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> driveMixAttach;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> driveOutAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> toneAttach;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> toneOutAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> tiltAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> cutoffAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> roomAttach;
@@ -189,11 +194,20 @@ private:
     
     /** ============================== Module Menus ==============================*/
     viator_gui::Menu m_distortionMenu;
+    viator_gui::Menu m_presetBrowser;
+    juce::Custom_Menu_Boy m_customMenu;
     
     std::vector<viator_gui::Menu*> menus =
     {
         &m_distortionMenu
     };
+    
+    void setPresetBrowserProps();
+    void setPresetBrowserItems();
+    
+    void setPreset(int newDisToggle, float newDrive, float newDriveMix, float newDriveOut, int newDriveType,
+                   int newToneToggle, float newTilt, float newTone, float newCutoff, float newToneOut, int newPrePost,
+                   int newVerbToggle, float newSize, float newDamp, float newWidth, float newBlend);
     
     void setMenuProps(viator_gui::Menu& menu);
     void setDistortionMenuProps();

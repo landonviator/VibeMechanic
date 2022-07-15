@@ -33,6 +33,16 @@ void  VibeMechinicAudioProcessorEditor::uiPaint(juce::Graphics &g)
                       getHeight() * 0.08,
                       juce::RectanglePlacement::centred);
     
+    /** Title */
+    g.setColour(m_mainCompColor.withAlpha(0.8f));
+    g.setFont(juce::Font("Helvetica", getWidth() * 0.02, juce::Font::FontStyleFlags::bold));
+    g.drawText("Vibe Mechanic v0.0.1",
+               getWidth() * 0.35,
+               getHeight() * 0.02,
+               getWidth() * 0.3,
+               getHeight() * 0.05,
+               juce::Justification::centred);
+    
     /** Update Component Colors*/
     for (auto& button : buttons)
     {
@@ -73,4 +83,6 @@ void  VibeMechinicAudioProcessorEditor::uiPaint(juce::Graphics &g)
     {
         setMenuProps(*menu);
     }
+    
+    setPresetBrowserProps();
 }

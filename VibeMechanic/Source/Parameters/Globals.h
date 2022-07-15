@@ -19,6 +19,9 @@ extern const juce::String driveName;
 extern const juce::String mixID;
 extern const juce::String mixName;
 
+extern const juce::String disOutputID;
+extern const juce::String disOutputName;
+
 // Reverb
 extern const juce::String reverbEnableID;
 extern const juce::String reverbEnableName;
@@ -54,6 +57,9 @@ extern const juce::String midQName;
 
 extern const juce::String midPreID;
 extern const juce::String midPreName;
+
+extern const juce::String toneOutID;
+extern const juce::String toneOutName;
 
 // Color Menu
 extern const juce::String colorID;

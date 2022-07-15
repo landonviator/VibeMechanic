@@ -65,7 +65,7 @@ SettingsPage::~SettingsPage()
 
 void SettingsPage::paint (juce::Graphics& g)
 {
-    g.fillAll(juce::Colours::black.brighter(0.1));
+    g.fillAll(juce::Colours::black.brighter(0.1).withAlpha(0.9f));
 }
 
 void SettingsPage::resized()

@@ -26,6 +26,7 @@
     m_treeState.addParameterListener(driveMenuID, this);
     m_treeState.addParameterListener(driveID, this);
     m_treeState.addParameterListener(mixID, this);
+    m_treeState.addParameterListener(disOutputID, this);
     
     // Reverb
     m_treeState.addParameterListener(reverbEnableID, this);
@@ -43,6 +44,7 @@
     m_treeState.addParameterListener(midCutoffID, this);
     m_treeState.addParameterListener(midQID, this);
     m_treeState.addParameterListener(midPreID, this);
+    m_treeState.addParameterListener(toneOutID, this);
     
     // Color Menu
     m_treeState.addParameterListener(colorID, this);
@@ -55,6 +57,7 @@
     m_treeState.removeParameterListener(driveMenuID, this);
     m_treeState.removeParameterListener(driveID, this);
     m_treeState.removeParameterListener(mixID, this);
+     m_treeState.removeParameterListener(disOutputID, this);
     
     // Reverb
     m_treeState.removeParameterListener(reverbEnableID, this);
@@ -72,6 +75,7 @@
     m_treeState.removeParameterListener(midCutoffID, this);
     m_treeState.removeParameterListener(midQID, this);
     m_treeState.removeParameterListener(midPreID, this);
+     m_treeState.removeParameterListener(toneOutID, this);
     
     // Color Menu
     m_treeState.removeParameterListener(colorID, this);
@@ -83,12 +87,13 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
         
     // Distortion
     auto pDriveEnable = std::make_unique<juce::AudioParameterBool>(driveEnableID, driveEnableID, true);
-    auto pDriveMenu = std::make_unique<juce::AudioParameterInt>(driveMenuID, driveMenuName, 0, 6, 0);
+    auto pDriveMenu = std::make_unique<juce::AudioParameterInt>(driveMenuID, driveMenuName, 0, 5, 0);
     auto pDrive = std::make_unique<juce::AudioParameterFloat>(driveID, driveName, 0.0f, 20.0f, 0.0f);
     auto pMix = std::make_unique<juce::AudioParameterFloat>(mixID, mixName, 0.0f, 1.0f, 1.0f);
+    auto pOutput = std::make_unique<juce::AudioParameterFloat>(disOutputID, disOutputName, -48.0f, 48.0f, 0.0f);
     
     // Reverb
-    auto pReverbEnable = std::make_unique<juce::AudioParameterBool>(reverbEnableID, reverbEnableName, true);
+    auto pReverbEnable = std::make_unique<juce::AudioParameterBool>(reverbEnableID, reverbEnableName, false);
     auto pRoomSize = std::make_unique<juce::AudioParameterFloat>(roomSizeID, roomSizeName, 0.0f, 1.0f, 0.5f);
     auto pDamping = std::make_unique<juce::AudioParameterFloat>(dampingID, dampingName, 0.0f, 1.0f, 0.5f);
     auto pWidth = std::make_unique<juce::AudioParameterFloat>(widthID, widthName, 0.0f, 1.0f, 0.5f);
@@ -106,6 +111,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
     auto pMidCutoff = std::make_unique<juce::AudioParameterFloat>(midCutoffID, midCutoffName, cutoffRange, 1000.0f);
     auto pMidQ = std::make_unique<juce::AudioParameterFloat>(midQID, midQName, 0.05f, 0.85f, 0.3f);
     auto pMidPre = std::make_unique<juce::AudioParameterBool>(midPreID, midPreName, false);
+    auto pToneOut = std::make_unique<juce::AudioParameterFloat>(toneOutID, toneOutName, -48.0f, 48.0f, 0.0f);
     
     // Color
     auto pColorMenu = std::make_unique<juce::AudioParameterInt>(colorID, colorName, 0, 9, 0);
@@ -115,6 +121,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
     params.push_back(std::move(pDriveMenu));
     params.push_back(std::move(pDrive));
     params.push_back(std::move(pMix));
+    params.push_back(std::move(pOutput));
     
     // Reverb
     params.push_back(std::move(pReverbEnable));
@@ -132,6 +139,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
     params.push_back(std::move(pMidCutoff));
     params.push_back(std::move(pMidQ));
     params.push_back(std::move(pMidPre));
+    params.push_back(std::move(pToneOut));
     
     // Color
     params.push_back(std::move(pColorMenu));
@@ -152,14 +160,14 @@ void  VibeMechanicAudioProcessor::updateParameters()
         case 0: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kLofi); break;
         case 1: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kHard); break;
         case 2: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kSoft); break;
-        case 3: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kDiode); break;
-        case 4: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kFuzz); break;
-        case 5: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kTube); break;
-        case 6: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kSaturation); break;
+        case 3: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kFuzz); break;
+        case 4: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kTube); break;
+        case 5: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kSaturation); break;
     }
     
     m_DistortionModule.setDrive(m_treeState.getRawParameterValue(driveID)->load());
     m_DistortionModule.setMix(m_treeState.getRawParameterValue(mixID)->load());
+    m_DistortionModule.setOutput(m_treeState.getRawParameterValue(disOutputID)->load());
     
     // Reverb
     reverbParams.roomSize = m_treeState.getRawParameterValue(roomSizeID)->load();
@@ -172,12 +180,15 @@ void  VibeMechanicAudioProcessor::updateParameters()
     
     // Tilt EQ
     m_LowShelfModule.setParameter(filterParam::kGain, m_treeState.getRawParameterValue(tiltGainID)->load() * -1.0);
+    m_LowShelfModule.setOutput(m_treeState.getRawParameterValue(toneOutID)->load());
     m_HighShelfModule.setParameter(filterParam::kGain, m_treeState.getRawParameterValue(tiltGainID)->load());
+    m_HighShelfModule.setOutput(m_treeState.getRawParameterValue(toneOutID)->load());
     
     // Mid Gain
     m_MidToneModule.setParameter(filterParam::kGain, m_treeState.getRawParameterValue(midGainID)->load());
     m_MidToneModule.setParameter(filterParam::kCutoff, m_treeState.getRawParameterValue(midCutoffID)->load());
     m_MidToneModule.setParameter(filterParam::kQ, m_treeState.getRawParameterValue(midQID)->load());
+    m_MidToneModule.setOutput(m_treeState.getRawParameterValue(toneOutID)->load());
 }
 
 //==============================================================================

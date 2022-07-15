@@ -52,6 +52,10 @@ void  VibeMechinicAudioProcessorEditor::setDisSliderProps()
     m_mixDial.setTextValueSuffix(" Mix");
     m_mixDial.setRange(0.0, 1.0, 0.01);
     driveMixAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, mixID, m_mixDial);
+    
+    m_distortionVolumeDial.setTextValueSuffix(" Out");
+    m_distortionVolumeDial.setRange(-48.0, 48.0, 0.01);
+    driveOutAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, disOutputID, m_distortionVolumeDial);
 }
 
 void  VibeMechinicAudioProcessorEditor::setToneSliderProps()
@@ -67,6 +71,10 @@ void  VibeMechinicAudioProcessorEditor::setToneSliderProps()
     m_cutoffDial.setTextValueSuffix(" Freq");
     m_cutoffDial.setRange(200.0, 5000.0, 0.01);
     cutoffAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, midCutoffID, m_cutoffDial);
+    
+    m_toneOutDial.setTextValueSuffix(" Out");
+    m_toneOutDial.setRange(-48.0, 48.0, 0.01);
+    toneOutAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, toneOutID, m_toneOutDial);
 }
 
 void  VibeMechinicAudioProcessorEditor::setVerbDialProps()
@@ -86,5 +94,4 @@ void  VibeMechinicAudioProcessorEditor::setVerbDialProps()
     m_blendDial.setTextValueSuffix(" Blend");
     m_blendDial.setRange(0.0, 1.0, 0.01);
     verbBlendAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, reverbMixID, m_blendDial);
-
 }

@@ -10,7 +10,15 @@ void  VibeMechinicAudioProcessorEditor::uiResized()
     float headerTopMargin = m_headerRectangle.getHeight() * 0.125f;
     float buttonWidth = getWidth() * 0.04;
     float buttonHeight = m_headerRectangle.getHeight() * 0.75f;
+    
+    auto menuX = getWidth() * 0.7;
+    auto menuY = getHeight() * 0.013;
+    auto menuWidth = getWidth() * 0.22;
+    auto menuHeight = getHeight() * 0.06;
+    
     m_settingsButton.setBounds(rightMargin, headerTopMargin, buttonWidth, buttonHeight);
+    
+    m_presetBrowser.setBounds(menuX, menuY, menuWidth, menuHeight);
     
     /** Settings Page */
     setSettingsButtonProps();
