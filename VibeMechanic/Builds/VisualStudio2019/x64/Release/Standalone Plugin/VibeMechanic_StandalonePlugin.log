@@ -1,4 +1,5 @@
-﻿  Generating code
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(65): warning C4715: 'viator_dsp::Distortion<float>::processSample': not all control paths return a value
+﻿  include_juce_audio_plugin_client_Standalone.cpp
+  Generating code
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(81): warning C4715: 'viator_dsp::Distortion<float>::processSample': not all control paths return a value
   Finished generating code
   VibeMechanic_StandalonePlugin.vcxproj -> C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Builds\VisualStudio2019\x64\Release\Standalone Plugin\VibeMechanic.exe
