@@ -22,6 +22,7 @@
     variableTree.setProperty("gradienttoggle", 1, nullptr);
     
     // Distortion
+    m_treeState.addParameterListener(inputID, this);
     m_treeState.addParameterListener(driveEnableID, this);
     m_treeState.addParameterListener(driveMenuID, this);
     m_treeState.addParameterListener(driveID, this);
@@ -48,16 +49,18 @@
     
     // Color Menu
     m_treeState.addParameterListener(colorID, this);
+    m_treeState.addParameterListener(presetID, this);
 }
 
  VibeMechanicAudioProcessor::~ VibeMechanicAudioProcessor()
 {
     // Distortion
+    m_treeState.removeParameterListener(inputID, this);
     m_treeState.removeParameterListener(driveEnableID, this);
     m_treeState.removeParameterListener(driveMenuID, this);
     m_treeState.removeParameterListener(driveID, this);
     m_treeState.removeParameterListener(mixID, this);
-     m_treeState.removeParameterListener(disOutputID, this);
+    m_treeState.removeParameterListener(disOutputID, this);
     
     // Reverb
     m_treeState.removeParameterListener(reverbEnableID, this);
@@ -79,6 +82,7 @@
     
     // Color Menu
     m_treeState.removeParameterListener(colorID, this);
+    m_treeState.removeParameterListener(presetID, this);
 }
 
 juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor::createParameterLayout()
@@ -86,6 +90,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
     std::vector <std::unique_ptr<juce::RangedAudioParameter>> params;
         
     // Distortion
+    auto pInput = std::make_unique<juce::AudioParameterFloat>(inputID, inputName, -48.0f, 48.0f, 0.0f);
     auto pDriveEnable = std::make_unique<juce::AudioParameterBool>(driveEnableID, driveEnableID, true);
     auto pDriveMenu = std::make_unique<juce::AudioParameterInt>(driveMenuID, driveMenuName, 0, 5, 0);
     auto pDrive = std::make_unique<juce::AudioParameterFloat>(driveID, driveName, 0.0f, 20.0f, 0.0f);
@@ -113,10 +118,14 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
     auto pMidPre = std::make_unique<juce::AudioParameterBool>(midPreID, midPreName, false);
     auto pToneOut = std::make_unique<juce::AudioParameterFloat>(toneOutID, toneOutName, -48.0f, 48.0f, 0.0f);
     
+    // Preset
+    auto pPresetMenu = std::make_unique<juce::AudioParameterInt>(presetID, presetName, 0, 9, 0);
+    
     // Color
     auto pColorMenu = std::make_unique<juce::AudioParameterInt>(colorID, colorName, 0, 9, 0);
     
     // Distortion
+    params.push_back(std::move(pInput));
     params.push_back(std::move(pDriveEnable));
     params.push_back(std::move(pDriveMenu));
     params.push_back(std::move(pDrive));
@@ -141,6 +150,9 @@ juce::AudioProcessorValueTreeState::ParameterLayout  VibeMechanicAudioProcessor:
     params.push_back(std::move(pMidPre));
     params.push_back(std::move(pToneOut));
     
+    // Preset
+    params.push_back(std::move(pPresetMenu));
+    
     // Color
     params.push_back(std::move(pColorMenu));
     
@@ -164,6 +176,8 @@ void  VibeMechanicAudioProcessor::updateParameters()
         case 4: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kTube); break;
         case 5: m_DistortionModule.setClipperType(viator_dsp::Distortion<float>::ClipType::kSaturation); break;
     }
+    
+    inputModule.setGainDecibels(m_treeState.getRawParameterValue(inputID)->load());
     
     m_DistortionModule.setDrive(m_treeState.getRawParameterValue(driveID)->load());
     m_DistortionModule.setMix(m_treeState.getRawParameterValue(mixID)->load());
@@ -288,6 +302,9 @@ void  VibeMechanicAudioProcessor::prepareToPlay (double sampleRate, int samplesP
     m_MidToneModule.setParameter(filterParam::kQ, 0.3);
     m_MidToneModule.setParameter(filterParam::kGain, 0.0);
     
+    inputModule.prepare(spec);
+    inputModule.setRampDurationSeconds(0.02);
+    
     updateParameters();
 }
 
@@ -330,6 +347,8 @@ void  VibeMechanicAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer
     auto totalNumOutputChannels = getTotalNumOutputChannels();
 
     juce::dsp::AudioBlock<float> audioBlock {buffer};
+    
+    inputModule.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
     
     if (m_treeState.getRawParameterValue(midPreID)->load())
     {

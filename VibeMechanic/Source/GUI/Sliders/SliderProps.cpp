@@ -56,6 +56,10 @@ void  VibeMechinicAudioProcessorEditor::setDisSliderProps()
     m_distortionVolumeDial.setTextValueSuffix(" Out");
     m_distortionVolumeDial.setRange(-48.0, 48.0, 0.01);
     driveOutAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, disOutputID, m_distortionVolumeDial);
+    
+    m_driveInputDial.setTextValueSuffix(" Input");
+    m_driveInputDial.setRange(-48.0, 48.0, 0.01);
+    inputAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.m_treeState, inputID, m_driveInputDial);
 }
 
 void  VibeMechinicAudioProcessorEditor::setToneSliderProps()

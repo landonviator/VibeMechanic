@@ -25,16 +25,23 @@ void  VibeMechinicAudioProcessorEditor::uiConstructor()
     for (auto& slider : disSliders)
     {
         setSliderProps(*slider);
+        
+        if (slider != &m_driveInputDial)
+        {
+            slider->setEnabled(m_distortionToggle.getToggleState());
+        }
     }
     
     for (auto& slider : toneSliders)
     {
         setSliderProps(*slider);
+        slider->setEnabled(m_distortionToggle.getToggleState());
     }
     
     for (auto& slider : verbSliders)
     {
         setSliderProps(*slider);
+        slider->setEnabled(m_reverbToggle.getToggleState());
     }
     
     setDisSliderProps();
@@ -94,6 +101,33 @@ void  VibeMechinicAudioProcessorEditor::uiConstructor()
         }
     };
     
+    m_distortionToggle.onClick = [this]()
+    {
+        for (auto& slider : disSliders)
+        {
+            if (slider != &m_driveInputDial)
+            {
+                slider->setEnabled(m_distortionToggle.getToggleState());
+            }
+        }
+    };
+    
+    m_toneToggle.onClick = [this]()
+    {
+        for (auto& slider : toneSliders)
+        {
+            slider->setEnabled(m_toneToggle.getToggleState());
+        }
+    };
+    
+    m_reverbToggle.onClick = [this]()
+    {
+        for (auto& slider : verbSliders)
+        {
+            slider->setEnabled(m_reverbToggle.getToggleState());
+        }
+    };
+    
     m_mainBorder.setText("LV-Template");
 }
 
@@ -110,6 +144,7 @@ void VibeMechinicAudioProcessorEditor::setPresetBrowserItems()
     m_presetBrowser.addItem("Behind The Stage", 8);
     m_presetBrowser.addItem("Lofi Speaker", 9);
     m_presetBrowser.addItem("Lofi Vibes", 10);
+    presetMenuAttach = std::make_unique<juce::AudioProcessorValueTreeState::ComboBoxAttachment>(audioProcessor.m_treeState, presetID, m_presetBrowser);
     
     m_presetBrowser.onChange = [this]()
     {

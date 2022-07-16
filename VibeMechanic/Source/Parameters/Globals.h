@@ -64,3 +64,11 @@ extern const juce::String toneOutName;
 // Color Menu
 extern const juce::String colorID;
 extern const juce::String colorName;
+
+// Preset
+extern const juce::String presetID;
+extern const juce::String presetName;
+
+// Input
+extern const juce::String inputID;
+extern const juce::String inputName;

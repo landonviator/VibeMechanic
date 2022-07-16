@@ -76,6 +76,7 @@ private:
     viator_dsp::Distortion<float> m_DistortionModule;
     juce::dsp::Reverb m_ReverbModule;
     juce::dsp::Reverb::Parameters reverbParams;
+    juce::dsp::Gain<float> inputModule;
     
     viator_dsp::SVFilter<float> m_LowShelfModule;
     viator_dsp::SVFilter<float> m_HighShelfModule;

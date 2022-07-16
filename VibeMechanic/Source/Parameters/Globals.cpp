@@ -17,8 +17,8 @@ const juce::String driveName              = "Drive";
 const juce::String mixID                  = "mix";
 const juce::String mixName                = "Drive Mix";
 
-const juce::String disOutputID               = "output";
-const juce::String disOutputName             = "Output";
+const juce::String disOutputID            = "output";
+const juce::String disOutputName          = "Output";
 
 // Reverb
 const juce::String reverbEnableID         = "reverbEnable";
@@ -62,3 +62,10 @@ const juce::String toneOutName            = "Tone Out";
 // Color Menu
 const juce::String colorID                = "colorMenu";
 const juce::String colorName              = "Color Theme";
+
+// Preset
+const juce::String presetID               = "preset";
+const juce::String presetName             = "Preset";
+
+const juce::String inputID                = "input";
+const juce::String inputName              = "Input";

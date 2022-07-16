@@ -45,7 +45,8 @@ void  VibeMechinicAudioProcessorEditor::setDistortionGroupLayout()
     m_distortionMenu.setBounds(menuX, menuY, menuWidth, menuHeight);
     m_driveDial.setBounds(dialX, dialY, dialSize, dialSize);
     m_mixDial.setBounds(dialX, m_driveDial.getY() + m_driveDial.getHeight(), dialSize, dialSize);
-    m_distortionVolumeDial.setBounds(m_mixDial.getX() + m_mixDial.getWidth() * 0.88, m_driveDial.getY() + m_driveDial.getHeight() * 0.5, dialSize, dialSize);
+    m_distortionVolumeDial.setBounds(m_mixDial.getX() + m_mixDial.getWidth() * 0.88, m_mixDial.getY(), dialSize, dialSize);
+    m_driveInputDial.setBounds(m_distortionVolumeDial.getX(), m_driveDial.getY(), dialSize, dialSize);
 }
 
 void  VibeMechinicAudioProcessorEditor::setToneGroupLayout()

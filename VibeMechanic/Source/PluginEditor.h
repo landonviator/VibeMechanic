@@ -100,6 +100,7 @@ private:
     
     /** ============================== Module Widgets ============================== */
     juce::Slider m_driveDial;
+    juce::Slider m_driveInputDial;
     juce::Slider m_mixDial;
     juce::Slider m_distortionVolumeDial;
     juce::Slider m_toneDial;
@@ -128,7 +129,7 @@ private:
     
     std::vector<juce::Slider*> disSliders =
     {
-        &m_driveDial, &m_mixDial, &m_distortionVolumeDial
+        &m_driveDial, &m_mixDial, &m_distortionVolumeDial, &m_driveInputDial
     };
     
     std::vector<juce::Slider*> toneSliders =
@@ -151,14 +152,18 @@ private:
     std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> reverbToggleAttach;
     
     std::unique_ptr<juce::AudioProcessorValueTreeState::ComboBoxAttachment> driveMenuAttach;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::ComboBoxAttachment> presetMenuAttach;
     
+    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> inputAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> driveAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> driveMixAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> driveOutAttach;
+    
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> toneAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> toneOutAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> tiltAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> cutoffAttach;
+    
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> roomAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> widthAttach;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> dampAttach;
