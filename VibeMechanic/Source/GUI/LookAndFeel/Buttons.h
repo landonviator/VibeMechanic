@@ -22,3 +22,15 @@ public:
                                 bool shouldDrawButtonAsHighlighted,
                                 bool shouldDrawButtonAsDown) override;
 };
+
+class NavButton : public juce::LookAndFeel_V4
+{
+public:
+    NavButton();
+    
+    void drawButtonBackground (juce::Graphics& g,
+                               juce::Button& button,
+                                const juce::Colour& backgroundColour,
+                                bool shouldDrawButtonAsHighlighted,
+                                bool shouldDrawButtonAsDown) override;
+};

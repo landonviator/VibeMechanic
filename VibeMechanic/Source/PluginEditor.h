@@ -196,14 +196,23 @@ private:
     viator_gui::Menu m_distortionMenu;
     viator_gui::Menu m_presetBrowser;
     juce::Custom_Menu_Boy m_customMenu;
+    juce::TextButton m_prevButton;
+    juce::TextButton m_nextButton;
     
     std::vector<viator_gui::Menu*> menus =
     {
         &m_distortionMenu
     };
     
+    std::vector<juce::TextButton*> navButtons =
+    {
+        &m_prevButton, &m_nextButton
+    };
+    
     void setPresetBrowserProps();
     void setPresetBrowserItems();
+    void setNavButtonProps(juce::TextButton& button);
+    NavButton customNavButton;
     
     void setPreset(int newDisToggle, float newDrive, float newDriveMix, float newDriveOut, int newDriveType,
                    int newToneToggle, float newTilt, float newTone, float newCutoff, float newToneOut, int newPrePost,

@@ -342,7 +342,7 @@ void  VibeMechanicAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer
         
         if (m_treeState.getRawParameterValue(driveEnableID)->load())
         {
-            m_DistortionModule.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+            m_DistortionModule.processBuffer(buffer);
         }
     }
     
@@ -350,7 +350,7 @@ void  VibeMechanicAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer
     {
         if (m_treeState.getRawParameterValue(driveEnableID)->load())
         {
-            m_DistortionModule.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+            m_DistortionModule.processBuffer(buffer);
         }
         
         if (m_treeState.getRawParameterValue(toneEnableID)->load())

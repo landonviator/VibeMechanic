@@ -29,6 +29,11 @@
     {
         slider->setLookAndFeel(nullptr);
     }
+     
+     for (auto& button : navButtons)
+     {
+         button->setLookAndFeel(nullptr);
+     }
     
     disSliders.clear();
     disSliders.shrink_to_fit();

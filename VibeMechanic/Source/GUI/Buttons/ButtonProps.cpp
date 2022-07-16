@@ -75,3 +75,16 @@ void  VibeMechinicAudioProcessorEditor::setPrePostProps()
     m_prepostButton.setColour(juce::TextButton::ColourIds::textColourOnId, m_mainCompColor);
     m_prepostButton.setColour(juce::ComboBox::ColourIds::outlineColourId, juce::Colours::transparentBlack);
 }
+
+void  VibeMechinicAudioProcessorEditor::setNavButtonProps(juce::TextButton& button)
+{
+    addAndMakeVisible(button);
+    button.setClickingTogglesState(false);
+    
+    button.setColour(juce::ComboBox::outlineColourId, m_mainCompColor.withAlpha(0.4f));
+    button.setColour(juce::TextButton::ColourIds::textColourOnId, m_textColor);
+    button.setColour(juce::TextButton::ColourIds::textColourOffId, m_textColor);
+    button.setColour(juce::TextButton::ColourIds::buttonColourId, juce::Colours::transparentBlack);
+    button.setColour(juce::TextButton::ColourIds::buttonOnColourId, juce::Colours::transparentBlack);
+    button.setLookAndFeel(&customNavButton);
+}
