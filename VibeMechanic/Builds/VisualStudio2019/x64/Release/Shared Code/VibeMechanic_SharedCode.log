@@ -24,167 +24,57 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\
   SliderProps.cpp
   UI-Constructor.cpp
   UI-InitWindow.cpp
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Buttons\ButtonProps.cpp(34,119): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\ButtonProps.cpp(21,115): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GroupProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GradientToggle.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\DiscordBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(73,9): warning C4305: 'argument': truncation from 'const double' to 'float'
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(90,9): warning C4305: 'argument': truncation from 'const double' to 'float'
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(90,9): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(24,10): warning C4100: 'shouldDrawButtonAsDown': unreferenced formal parameter
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(23,10): warning C4100: 'shouldDrawButtonAsHighlighted': unreferenced formal parameter
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(22,25): warning C4100: 'backgroundColour': unreferenced formal parameter
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(136,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\GlowSlider.cpp(29,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowButtonProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(29,107): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(37,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(56,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(56,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(64,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(74,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(73,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\ButtonProps.cpp(21,115): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\SettingsPage.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(123,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(122,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(143,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(155,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(46,124): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(68,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,91): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,72): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(76,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -199,52 +89,144 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(90,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(91,153): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(91,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\SettingsPage.cpp(91,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Buttons\ButtonProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\ButtonProps.cpp(21,115): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-InitWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Buttons.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(73,9): warning C4305: 'argument': truncation from 'const double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(90,9): warning C4305: 'argument': truncation from 'const double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(90,9): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(24,10): warning C4100: 'shouldDrawButtonAsDown': unreferenced formal parameter
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(23,10): warning C4100: 'shouldDrawButtonAsHighlighted': unreferenced formal parameter
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(22,25): warning C4100: 'backgroundColour': unreferenced formal parameter
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Buttons.cpp(136,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\FullDial.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Groups\Groups.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Constructor.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(29,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(37,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(56,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(56,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(64,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(74,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(73,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\LookAndFeel\Themes.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Buttons\ButtonProps.cpp(34,119): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(123,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(122,9): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(143,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\FullDial.cpp(155,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\TwitchBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Menus\Menus.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(18,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(17,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\Menus.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(20,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(33,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Labels\Labels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\PanelLAF.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\PatreonBtn.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(15,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(20,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(27,93): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(156,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(27,78): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(27,64): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(27,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(162,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(168,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(32,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(174,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(32,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(180,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-InitWindow.cpp(37,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(186,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(192,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(199,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(205,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(211,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\ThemeMenu.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\LookAndFeel\MenuLAF.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(18,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(17,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(20,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\MenuLAF.cpp(33,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Panels\Panels.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Themes.cpp(72,78): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Themes.cpp(82,71): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\LookAndFeel\Themes.cpp(83,79): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Components\SettingsPage\GlowSlider.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(22,75): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(22,68): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(22,46): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -252,24 +234,35 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Pane
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(23,143): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(23,136): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(23,114): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(23,86): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(24,133): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(24,126): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(24,104): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(24,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(156,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(42,149): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(43,112): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(43,100): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(162,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(43,87): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(168,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(44,145): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(174,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(44,133): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(180,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(44,125): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(186,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(44,59): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(192,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(45,57): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(199,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(45,46): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(45,39): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(205,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(45,32): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(46,51): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Constructor.cpp(211,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(46,41): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(46,34): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(46,27): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
@@ -303,6 +296,7 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Pane
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(75,79): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(75,69): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(89,129): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Components\SettingsPage\GlowSlider.cpp(29,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(90,100): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(90,88): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(90,75): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -321,6 +315,12 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Pane
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(95,88): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(96,100): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\Panels\Panels.cpp(96,90): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\Sliders\SliderProps.cpp)
   UI-Paint.cpp
   UI-Resized.cpp
   UI-SaveWindow.cpp
@@ -348,16 +348,9 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Paint.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Paint.cpp(11,135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Paint.cpp(11,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Paint.cpp(22,46): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -372,6 +365,13 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Paint.cpp(42,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Paint.cpp(41,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Paint.cpp(40,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-Resized.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Resized.cpp(7,51): warning C4244: 'argument': conversion from 'const double' to 'ValueType', possible loss of data
           with
           [
@@ -402,17 +402,33 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Resized.cpp(40,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Resized.cpp(40,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-Resized.cpp(40,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\Parameters\Globals.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\Parameters\Globals.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\Parameters\Globals.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\Parameters\Globals.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-SaveWindow.cpp(12,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-SaveWindow.cpp(13,48): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginEditor.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(162,91): warning C4100: 'newValue': unreferenced formal parameter
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(162,72): warning C4100: 'parameterID': unreferenced formal parameter
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(196,108): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
@@ -439,131 +455,91 @@ C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor
           [
               SampleType=float
           ]
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(343,101): warning C4100: 'midiMessages': unreferenced formal parameter
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(346,10): warning C4189: 'totalNumInputChannels': local variable is initialized but not referenced
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(347,10): warning C4189: 'totalNumOutputChannels': local variable is initialized but not referenced
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33,1): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\GUI\UI-Methods\UI-SaveWindow.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-SaveWindow.cpp(12,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\GUI\UI-Methods\UI-SaveWindow.cpp(13,48): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(233,34): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(347,101): warning C4100: 'midiMessages': unreferenced formal parameter
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(350,10): warning C4189: 'totalNumInputChannels': local variable is initialized but not referenced
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(351,10): warning C4189: 'totalNumOutputChannels': local variable is initialized but not referenced
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(229,34): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(220): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(216): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(79): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(75): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
 C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.h(76): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239,72): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235,72): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239,61): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235,61): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(244,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(240,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(198,1): warning C4244: '*=': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(194,1): warning C4244: '*=': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(193): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processSaturation(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(189): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processSaturation(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(78): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processSaturation(SampleType,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(74): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processSaturation(SampleType,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(205,32): warning C4244: '=': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(201,32): warning C4244: '=': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(213,86): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(209,86): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(215,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(211,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(180,67): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(176,67): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(174): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processFuzz(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(170): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processFuzz(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(76): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processFuzz(SampleType,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(72): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processFuzz(SampleType,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(187,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(183,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(164,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
-          with
-          [
-              Type=double
-          ]
-          and
-          [
-              SampleType=float
-          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(148): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)'
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(77): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)' being compiled
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(169,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(127,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(160,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
           with
           [
               Type=double
@@ -572,23 +548,22 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(112): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(144): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(75): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(73): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(133,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(165,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(111,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(102,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(123,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
           with
           [
               Type=double
@@ -597,22 +572,47 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(85): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(108): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(74): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(71): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(107,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(129,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(84,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(107,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(98,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
+          with
+          [
+              Type=double
+          ]
+          and
+          [
+              SampleType=float
+          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(81): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)'
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(70): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)' being compiled
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(103,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(80,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(110,29): warning C4244: 'argument': conversion from 'SampleType' to 'const unsigned __int64', possible loss of data
           with
           [
@@ -623,13 +623,13 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(1
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239): message : see reference to function template instantiation 'SampleType viator_dsp::SVFilter<SampleType>::processSample(SampleType,SampleType) noexcept' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235): message : see reference to function template instantiation 'SampleType viator_dsp::SVFilter<SampleType>::processSample(SampleType,SampleType) noexcept' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(296): message : see reference to class template instantiation 'viator_dsp::SVFilter<float>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(298): message : see reference to class template instantiation 'viator_dsp::Distortion<SampleType>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292): message : see reference to class template instantiation 'viator_dsp::SVFilter<float>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(294): message : see reference to class template instantiation 'viator_dsp::Distortion<SampleType>' being compiled (compiling source file ..\..\Source\PluginProcessor.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(111,29): warning C4244: 'argument': conversion from 'SampleType' to 'const unsigned __int64', possible loss of data
           with
           [
@@ -655,12 +655,12 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(6
           [
               SampleType=float
           ] (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(357): message : see reference to function template instantiation 'void viator_dsp::SVFilter<float>::process<juce::dsp::ProcessContextReplacing<float>>(const ProcessContext &) noexcept' being compiled
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(361): message : see reference to function template instantiation 'void viator_dsp::SVFilter<float>::process<juce::dsp::ProcessContextReplacing<float>>(const ProcessContext &) noexcept' being compiled
           with
           [
               ProcessContext=juce::dsp::ProcessContextReplacing<float>
           ]
-C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(357): message : see reference to function template instantiation 'void viator_dsp::SVFilter<float>::process<juce::dsp::ProcessContextReplacing<float>>(const ProcessContext &) noexcept' being compiled
+C:\Users\lando\Documents\GitHub\VibeMechanic\VibeMechanic\Source\PluginProcessor.cpp(361): message : see reference to function template instantiation 'void viator_dsp::SVFilter<float>::process<juce::dsp::ProcessContextReplacing<float>>(const ProcessContext &) noexcept' being compiled
           with
           [
               ProcessContext=juce::dsp::ProcessContextReplacing<float>
@@ -714,9 +714,9 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_utils\utils.h(33
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Fader.h(54,56): warning C4100: 'event': unreferenced formal parameter (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(24,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\PushButton.h(28,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(291,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(287,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.cpp(105): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(288,1): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\LFOGenerator.cpp(5,22): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\LFOGenerator.cpp(47,96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_gui\Widgets\Dial.cpp(65,102): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
@@ -891,18 +891,18 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(1
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239,72): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235,72): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(220): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(216): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)'
           with
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.cpp(106): message : see reference to class template instantiation 'viator_dsp::Distortion<double>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239,61): warning C4244: 'argument': conversion from 'SampleType' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235,61): warning C4244: 'argument': conversion from 'SampleType' to 'SampleType', possible loss of data
           with
           [
               SampleType=double
@@ -911,17 +911,17 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(180,67): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(176,67): warning C4244: 'argument': conversion from 'int' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(174): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processFuzz(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(170): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processFuzz(SampleType,int)'
           with
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(180,61): warning C4244: 'argument': conversion from 'SampleType' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(176,61): warning C4244: 'argument': conversion from 'SampleType' to 'SampleType', possible loss of data
           with
           [
               SampleType=double
@@ -930,129 +930,86 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(111,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(112): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(107,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(108): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)'
           with
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(233): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(229): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)' being compiled
           with
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(84,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(85): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(80,71): warning C4100: 'channel': unreferenced formal parameter (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(81): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)'
           with
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)' being compiled
           with
           [
               SampleType=double
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(64,64): warning C4244: '=': conversion from 'SampleType' to 'Type', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(60,45): warning C4244: '=': conversion from 'SampleType' to 'float', possible loss of data
           with
           [
               SampleType=double
-          ]
-          and
-          [
-              Type=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(54): message : while compiling class template member function 'void viator_dsp::Distortion<double>::processBuffer(juce::AudioBuffer<float> &)' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(233,34): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(53): message : while compiling class template member function 'void viator_dsp::Distortion<double>::processBuffer(juce::AudioBuffer<float> &)' (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(229,34): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(220): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(216): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processLofi(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.cpp(105): message : see reference to class template instantiation 'viator_dsp::Distortion<float>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239,61): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235,61): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(244,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(240,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(198,1): warning C4244: '*=': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(194,1): warning C4244: '*=': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(193): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processSaturation(SampleType,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(189): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processSaturation(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(205,32): warning C4244: '=': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(201,32): warning C4244: '=': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(213,86): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(209,86): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(215,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(211,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(187,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(183,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(164,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
-          with
-          [
-              Type=double
-          ]
-          and
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(148): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)'
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(178): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)' being compiled
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(169,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(142,40): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(138): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processDiode(SampleType,int)'
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(143,57): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
-          with
-          [
-              SampleType=float
-          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(127,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(160,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
           with
           [
               Type=double
@@ -1061,22 +1018,37 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(112): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(144): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(233): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(174): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::processTube(SampleType,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(133,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(165,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(102,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(138,40): warning C4244: 'argument': conversion from 'double' to 'SampleType', possible loss of data
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(134): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::processDiode(SampleType,int)'
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(139,57): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(123,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
           with
           [
               Type=double
@@ -1085,17 +1057,41 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(85): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)'
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(108): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)'
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(229): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::softClipData(SampleType,bool,int)' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(107,20): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(129,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(98,1): warning C4244: '*=': conversion from 'Type' to 'SampleType', possible loss of data
+          with
+          [
+              Type=double
+          ]
+          and
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(81): message : while compiling class template member function 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)'
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235): message : see reference to function template instantiation 'SampleType viator_dsp::Distortion<SampleType>::hardClipData(SampleType,bool,int)' being compiled
+          with
+          [
+              SampleType=float
+          ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(103,16): warning C4244: 'return': conversion from 'double' to 'SampleType', possible loss of data
           with
           [
               SampleType=float
@@ -1110,13 +1106,13 @@ C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(1
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(239): message : see reference to function template instantiation 'SampleType viator_dsp::SVFilter<SampleType>::processSample(SampleType,SampleType) noexcept' being compiled
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(235): message : see reference to function template instantiation 'SampleType viator_dsp::SVFilter<SampleType>::processSample(SampleType,SampleType) noexcept' being compiled
           with
           [
               SampleType=float
           ] (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(296): message : see reference to class template instantiation 'viator_dsp::SVFilter<float>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
-C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(298): message : see reference to class template instantiation 'viator_dsp::Distortion<SampleType>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(292): message : see reference to class template instantiation 'viator_dsp::SVFilter<float>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
+C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\Distortion.h(294): message : see reference to class template instantiation 'viator_dsp::Distortion<SampleType>' being compiled (compiling source file ..\..\JuceLibraryCode\include_viator_modules.cpp)
 C:\Users\lando\Documents\GitHub\viatordsp\viator_modules\viator_dsp\SVFilter.h(111,29): warning C4244: 'argument': conversion from 'SampleType' to 'const unsigned __int64', possible loss of data
           with
           [
