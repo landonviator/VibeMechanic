@@ -302,6 +302,10 @@ void  VibeMechanicAudioProcessor::prepareToPlay (double sampleRate, int samplesP
     m_MidToneModule.setParameter(filterParam::kQ, 0.3);
     m_MidToneModule.setParameter(filterParam::kGain, 0.0);
     
+    m_dcFilterModule.prepare(spec);
+    m_dcFilterModule.setType(juce::dsp::LinkwitzRileyFilterType::highpass);
+    m_dcFilterModule.setCutoffFrequency(20.0);
+    
     inputModule.prepare(spec);
     inputModule.setRampDurationSeconds(0.02);
     
@@ -384,6 +388,10 @@ void  VibeMechanicAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer
     {
         m_ReverbModule.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
     }
+    
+    m_dcFilterModule.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+    
+    viator_utils::utils::hardClipBlock(audioBlock);
 }
 
 //==============================================================================

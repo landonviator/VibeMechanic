@@ -36,7 +36,7 @@ void  VibeMechinicAudioProcessorEditor::uiPaint(juce::Graphics &g)
     /** Title */
     g.setColour(m_mainCompColor.withAlpha(0.8f));
     g.setFont(juce::Font("Helvetica", getWidth() * 0.02, juce::Font::FontStyleFlags::bold));
-    g.drawText("Vibe Mechanic v1.0.0",
+    g.drawText("Vibe Mechanic v1.1.0",
                getWidth() * 0.33,
                getHeight() * 0.02,
                getWidth() * 0.3,
